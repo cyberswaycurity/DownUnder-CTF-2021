@@ -1,3 +1,6 @@
+# Rabbit
+Category: `misc`
+
 This challenge required us to download a file. File type was bzip. We knew we had to decompress file 1000 times based on the description.
 Every time it was decompressed it was a different type of compression. We decompressed a few times and the compression formats were determined
 to be gzip, bzip, xz, and zip.
