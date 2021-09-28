@@ -54,4 +54,4 @@ for i in range(len(code)):
 
 print(flag)
 ````
-flag: `DUCTF{sh0uld'v3_us3d_r0t_13}
+flag: `DUCTF{sh0uld'v3_us3d_r0t_13}`
