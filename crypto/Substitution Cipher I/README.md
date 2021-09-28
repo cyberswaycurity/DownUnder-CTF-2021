@@ -12,3 +12,16 @@ output.txt file:
 ```
 𖿫𖝓玲𰆽𪃵𢙿疗𫢋𥆛🴃䶹𬑽蒵𜭱𫢋𪃵蒵🴃𜭱𩕑疗𪲳𜭱窇蒵𱫳
 ```
+substitution-cipher-i.sage file:
+```python
+def encrypt(msg, f):
+    return ''.join(chr(f.substitute(c)) for c in msg)
+
+P.<x> = PolynomialRing(ZZ)
+f = 13*x^2 + 3*x + 7
+
+FLAG = open('./flag.txt', 'rb').read().strip()
+
+enc = encrypt(FLAG, f)
+print(enc)
+```
