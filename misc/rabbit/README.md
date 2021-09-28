@@ -13,4 +13,5 @@ Encoding was:
 RFVDVEZ7YmFidXNoa2FzX3YwZGthX3dhc19oM3IzfQ==
 ```
 Decoding the string gave us the flag.
+
 Flag:`DUCTF{babushkas_v0dka_was_h3r3}`
